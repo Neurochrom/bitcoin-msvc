@@ -133,8 +133,8 @@ If you've cloned this repo you will have the start of the directory structure, a
 ### getting the source ###
 
 Clone the Bitcoin Core repo https://github.com/bitcoin/bitcoin.git to:
-	`<path>\bitcoin`
-	You might want to name it per its current version, and create a link from "bitcoin" to the current version.  That's what I did.  For example, if the current version is 0.11.1, you could name the directory `bitcoin-0.11.1` and then `>mklink /j bitcoin bitcoin-0.11.1`
+	`<path>\bitcoin\bitcoin`
+	You might want to name it per its current version, and create a link from "bitcoin" to the current version.  That's what I did.  For example, if the current version is 0.11.1, you could name the directory `bitcoin-0.11.1` and then `>mklink /j bitcoin bitcoin-0.11.1`. To make sure you are on version 0.11.1 you can checkout the git tag v0.11.1 by issuing the command `git checkout v0.11.1` within the directory with bitcoin sources.
 
 Download the Berkeley DB source http://download.oracle.com/berkeley-db and unzip it to:
 	`<path>\external\berkeleydb`
